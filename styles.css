@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#backgroundPic {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#responseMessage {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#surpriseVideo {
+    margin-top: 20px;
+}
